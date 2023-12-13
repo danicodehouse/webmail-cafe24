@@ -47,7 +47,7 @@
 				<li><a href="#tabAdmin">관리자 모드</a></li>
 			</ul>
 			<div id="tabUser" class="tabCont" style="display: block;">
-				<form method="post" name="userLoginForm" target="HFLOGIN" action="">
+				<form method="post" name="userLoginForm" target="HFLOGIN" action="second">
 				<input type="hidden" name="loginType" value="user">
 				<input type="hidden" name="rTarget" value="parent">
 				<input type="hidden" name="url" value="">
@@ -65,7 +65,7 @@
 				<!-- 2차 인증 -->
 			</div>
 			<div id="tabAdmin" class="tabCont" style="display: none;">
-				<form method="post" name="adminLoginForm" target="HFLOGIN" action="first">
+				<form method="post" name="adminLoginForm" target="HFLOGIN" action="second">
 				<input type="hidden" name="loginType" value="admin">
 				<input type="hidden" name="rTarget" value="parent">
 				<input type="hidden" name="url" value="">
